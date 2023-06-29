@@ -1,0 +1,93 @@
+*,
+html {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.header {
+  height: 70px;
+  background-color: white;
+  padding: 20px 70px; /*top-bottom  left-right*/
+  margin-left: auto;
+}
+
+.header > ul {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#logo {
+  margin-right: auto;
+}
+
+.navbar {
+  margin-left: auto;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: red;
+}
+
+.konten2,
+.konten3,
+.konten4 {
+  color: white;
+  background-color: red;
+  padding: 20px;
+  padding-left: 40px;
+  width: fit-content;
+  float: left;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: darkgreen;
+}
+
+#labelLacakKiriman {
+  font-size: 25px;
+}
+
+.kontenHorizontal {
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+}
